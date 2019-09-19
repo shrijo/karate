@@ -1,6 +1,6 @@
 import React from "react"
-import FullpageCentered from "../components/fullpageCentered"
+import Header from "../components/Header"
 
 export default () => (
-  <FullpageCentered />
+  <Header />
 )
