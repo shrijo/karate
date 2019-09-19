@@ -1,3 +1,6 @@
 import React from "react"
+import FullpageCentered from "../components/fullpageCentered"
 
-export default () => <div>Hello Jonas!!!</div>
+export default () => (
+  <FullpageCentered />
+)
