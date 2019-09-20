@@ -3,7 +3,7 @@ import Karate from "./karate"
 import styles from "./header.module.css"
 
 export default () => (
-  <div className={styles.header}>
+  <div className={styles.logo}>
     <Karate />
   </div>
 )
