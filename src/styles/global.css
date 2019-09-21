@@ -4,15 +4,15 @@ body{
 }
 
 .horizontalScroller{
-  height: calc(200vw + 100vh);
+  width: 100vw;
+  /* height: 400vh;      */
+  /* overflow: hidden; this breaks everything! */
 }
 
 .horizontalSectionWrapper{
-  position: sticky;
-  top: 0;
-  width: 100vw;
+  position: sticky !important;
+  top: 0px;
   height: 100vh;
-  overflow: hidden;
   display: flex;
   flex-direction: row;
 }
