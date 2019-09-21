@@ -23,21 +23,7 @@ class ScrollerHorizontal extends Component {
     return (
     <div className="horizontalScroller">
       <div className="horizontalSectionWrapper">
-        <div className={styles.horizontalSection}>
-          <div className={styles.card}>
-            <h2>test</h2>
-          </div>
-        </div>
-        <div className={styles.horizontalSection}>
-          <div className={styles.card}>
-            <h2>test</h2>
-          </div>
-        </div>
-        <div className={styles.horizontalSection}>
-          <div className={styles.card}>
-            <h2>test</h2>
-          </div>
-        </div>
+        { this.props.children }
       </div>
     </div>
     )

@@ -1,8 +1,8 @@
-.horizontalScroller{
+.horizontalScroller {
   height: calc(200vw + 100vh);
 }
 
-.horizontalSectionWrapper{
+.horizontalSectionWrapper {
   position: sticky;
   top: 0;
   width: 100vw;
@@ -10,22 +10,4 @@
   overflow: hidden;
   display: flex;
   flex-direction: row;
-}
-
-.horizontalSection{
-  min-width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FEFEFE;
-}
-
-.card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80vw;
-  height: 80vh;
-  background-color: #DADADA;
 }
