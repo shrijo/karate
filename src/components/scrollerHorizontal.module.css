@@ -1,13 +1,9 @@
 .horizontalScroller {
-  height: calc(200vw + 100vh);
+  overflow: auto; /* fuck you position: sticky, may  you be  damned */
 }
 
 .horizontalSectionWrapper {
-  position: sticky;
-  top: 0;
-  width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
+  top: 0;
+  display: inline-flex;
 }
