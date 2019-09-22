@@ -1,17 +1,6 @@
 import React, { useRef,  useEffect } from 'react'
 import styles from "./scrollerHorizontal.module.css"
 
-
-
-window.onresize = resize
-
-function resize(){
-  // document.querySelector(".horizontalScroller").style.height = this.wrapperRef.current.offsetWidth;
-}
-
-
-
-
 export default props => {
     const scrollerRef = useRef(null);
     const wrapperRef = useRef(null);
