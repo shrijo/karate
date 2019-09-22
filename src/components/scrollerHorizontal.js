@@ -15,7 +15,7 @@ function resize(){
 export default props => {
     const scrollerRef = useRef(null);
     const wrapperRef = useRef(null);
-    
+
     let targetWidth;
 
     const scrollHandler = () => {
@@ -23,25 +23,30 @@ export default props => {
       const left = -1 * top;
       const offsetTop = wrapperRef.current.offsetTop;
       // const offsetBottom = wrapperRef.current.getBoundingClientRect().left + window.innerWidth;
-      
-      if(window.scrollY >= offsetTop ) {
-        console.log('OHAI', {
-          left: -1 * wrapperRef.current.getBoundingClientRect().left + window.innerWidth,
-          width: wrapperRef.current.getBoundingClientRect().width
-        });
-        
+
+      if(window.scrollY >= offsetTop && window.scrollY <= (offsetTop + scrollerRef.current.getBoundingClientRect().height - window.innerHeight)) {
         wrapperRef.current.style.transform = `translate(${left}px, ${top}px)`
+      } else if (window.scrollY > (offsetTop + scrollerRef.current.getBoundingClientRect().height - window.innerHeight)) {
+        wrapperRef.current.style.transform = `translate(${targetWidth-window.innerWidth}px, ${targetWidth-window.innerHeight}px)`
+      } else if(window.scrollY < offsetTop && window.scrollY){
+        wrapperRef.current.style.transform = `translate(0px, 0px)`
       }
+    }
+
+    const resizeHandler = () => {
+      targetWidth = (wrapperRef.current.getBoundingClientRect().width) - window.innerWidth + window.innerHeight + `px`;
+      scrollerRef.current.style.height = targetWidth
     }
 
     useEffect(() => {
       targetWidth = (wrapperRef.current.getBoundingClientRect().width) - window.innerWidth + window.innerHeight + `px`;
-      console.log(targetWidth)
       scrollerRef.current.style.height = targetWidth
       wrapperRef.current.style.transform = `translate(${100}, ${100})`
       window.addEventListener('scroll', scrollHandler)
+      window.addEventListener('resize', resizeHandler)
       return  () => {
         window.removeEventListener('scroll', scrollHandler)
+        window.removeEventListener('resize', resizeHandler)
       }
     })
 
@@ -53,4 +58,3 @@ export default props => {
       </div>
     )
 }
-
