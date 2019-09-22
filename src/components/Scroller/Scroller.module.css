@@ -1,0 +1,18 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.inner {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: sticky;
+  overflow-x: auto;
+}
+
+.scroller {
+  outline-offset: -10px;
+  display: inline-flex;
+}
