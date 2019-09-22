@@ -5,6 +5,7 @@ import Text from "../components/text"
 import Footer from "../components/footer"
 import styles from "./index.module.css"
 import Card  from "../components/Card"
+import Scroller  from "../components/Scroller"
 
 
 
@@ -31,7 +32,7 @@ import Card  from "../components/Card"
 export default () => (
   <div>
     <Header />
-    <ScrollerHorizontal>
+    <Scroller>
       <Card>
         <h2>card 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
@@ -44,7 +45,11 @@ export default () => (
         <h2>card 3</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
       </Card>
-    </ScrollerHorizontal>
+      <Card>
+        <h2>card 4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
+      </Card>
+    </Scroller>
     <Text />
     <Footer />
   </div>
