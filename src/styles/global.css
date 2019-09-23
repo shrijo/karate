@@ -2,17 +2,3 @@ body{
   margin: 0;
   font-family: 'futter_betamedium';
 }
-
-.horizontalScroller{
-  width: 100vw;
-  /* height: 400vh;      */
-  /* overflow: hidden; this breaks everything! */
-}
-
-.horizontalSectionWrapper{
-  position: sticky !important;
-  top: 0px;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-}
