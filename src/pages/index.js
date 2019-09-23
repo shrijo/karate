@@ -1,6 +1,5 @@
 import React from "react"
 import Header from "../components/header"
-import ScrollerHorizontal from "../components/scrollerHorizontal"
 import Text from "../components/text"
 import Footer from "../components/footer"
 import styles from "./index.module.css"

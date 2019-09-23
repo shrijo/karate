@@ -1,9 +1,0 @@
-.horizontalScroller {
-  overflow: auto; /* fuck you position: sticky, may  you be  damned */
-}
-
-.horizontalSectionWrapper {
-  height: 100vh;
-  top: 0;
-  display: inline-flex;
-}
