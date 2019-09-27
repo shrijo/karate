@@ -8,11 +8,12 @@
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80vw;
+  width: calc(100vw - 20vh);
   height: 80vh;
-  background-color: #DADADA;
+}
+
+h2{
+  display: inline-block;
+  line-height: 40px;
+  border-bottom: 3px solid black;
 }

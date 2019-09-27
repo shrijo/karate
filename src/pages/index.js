@@ -33,15 +33,15 @@ export default () => (
     <Header />
     <Scroller>
       <Card>
-        <h2>card 1</h2>
+        <h2>Concept & Vision</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
       </Card>
       <Card>
-        <h2>card 2</h2>
+        <h2>Prototyping</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
       </Card>
       <Card>
-        <h2>card 3</h2>
+        <h2>Design Studies</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
       </Card>
     </Scroller>
