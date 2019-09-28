@@ -1,5 +1,6 @@
 import React from "react"
 
+import Navigation from "../components/Navigation"
 import Header from "../components/Header"
 import Text from "../components/Text"
 import Footer from "../components/Footer"
@@ -30,6 +31,7 @@ import styles from "./index.module.css"
 
 export default () => (
   <div>
+    <Navigation />
     <Header />
     <Scroller>
       <Card>
