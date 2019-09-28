@@ -1,5 +1,7 @@
 import React from "react"
-import styles from "./text.module.css"
+
+import styles from "./Text.module.css"
+
 
 export default () => (
   <div className={styles.textSection}>

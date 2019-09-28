@@ -1,5 +1,7 @@
 import React, { useRef, useEffect, useState } from "react"
+
 import s from "./Scroller.module.css"
+
 
 export default ({ children }) => {
   const wrapperRef = useRef(null)

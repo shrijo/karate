@@ -1,12 +1,12 @@
 import React from "react"
-import Header from "../components/header"
-import Text from "../components/text"
-import Footer from "../components/footer"
-import styles from "./index.module.css"
+
+import Header from "../components/Header"
+import Text from "../components/Text"
+import Footer from "../components/Footer"
 import Card  from "../components/Card"
 import Scroller  from "../components/Scroller"
 
-
+import styles from "./index.module.css"
 
 
 // function scrollin(){
