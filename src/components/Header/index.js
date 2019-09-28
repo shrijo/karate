@@ -1,6 +1,6 @@
 import React from "react"
 
-import Karate from "./Karate"
+import Karate from "../Karate"
 
 import styles from "./Header.module.css"
 
