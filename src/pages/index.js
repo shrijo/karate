@@ -3,6 +3,7 @@ import React from "react"
 import Navigation from "../components/Navigation"
 import Header from "../components/Header"
 import Text from "../components/Text"
+import WorkedWith from "../components/WorkedWith"
 import Footer from "../components/Footer"
 import Card  from "../components/Card"
 import Scroller  from "../components/Scroller"
@@ -47,6 +48,7 @@ export default () => (
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
       </Card>
     </Scroller>
+    <WorkedWith />
     <Text />
     <Footer />
   </div>

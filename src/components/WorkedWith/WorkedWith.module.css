@@ -1,0 +1,18 @@
+.workedWithSection{
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10vh;
+  box-sizing: border-box;
+}
+
+.filterBar li{
+  display: inline-block;
+  margin-right: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.filterBar li:hover{
+  text-decoration: none;
+  color: black;
+}
