@@ -36,16 +36,19 @@ export default () => (
     <Header />
     <Scroller>
       <Card>
-        <h2>Concept & Vision</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/714kuatiVFL._SL1000_.jpg" />
       </Card>
       <Card>
-        <h2>Prototyping</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
+        <img src="https://i.ytimg.com/vi/ZArOxKkFGII/maxresdefault.jpg" />
       </Card>
       <Card>
-        <h2>Design Studies</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nulla, provident quasi dolore deserunt vero illum delectus esse velit aliquam praesentium quis. Quibusdam quia nihil rem quam tempore itaque ratione.</p>
+        <img src="https://i.pinimg.com/originals/82/16/97/82169723f888302a9d1d4156359567f0.jpg" />
+      </Card>
+      <Card>
+        <img src="https://images.askmen.com/720x540/entertainment/better_look/movie-fathers/9-mr-miyagi-the-karate-kid-1465834048.jpg" />
+      </Card>
+      <Card>
+        <img src="http://content.artofmanliness.com/uploads//2012/02/chucknorris.jpg" />
       </Card>
     </Scroller>
     <WorkedWith />

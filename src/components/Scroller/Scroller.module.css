@@ -15,4 +15,9 @@
 .scroller {
   outline-offset: -10px;
   display: inline-flex;
+  padding: 0 9vh;
+}
+
+.scroller div{
+  margin: 0 1vh;
 }

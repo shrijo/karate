@@ -1,4 +1,7 @@
 .navigation{
+  left: auto;
+  right: 0;
+  text-align: right;
   margin: 20px;
   padding: 0;
   z-index: 10000;
@@ -13,7 +16,7 @@
 
 .navigation li{
   background-color: white;
-  margin: 0 15px 0 0;
+  margin: 0 0 0 15px;
   display: inline-block;
   height: 40px;
   line-height: 40px;
