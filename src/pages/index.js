@@ -8,8 +8,6 @@ import Footer from "../components/Footer"
 import Card  from "../components/Card"
 import Scroller  from "../components/Scroller"
 
-import styles from "./index.module.css"
-
 
 // function scrollin(){
 
@@ -36,19 +34,19 @@ export default () => (
     <Header />
     <Scroller>
       <Card>
-        <img src="https://images-na.ssl-images-amazon.com/images/I/714kuatiVFL._SL1000_.jpg" />
+        <img src="https://images-na.ssl-images-amazon.com/images/I/714kuatiVFL._SL1000_.jpg" alt="karate commercial"/>
       </Card>
       <Card>
-        <img src="https://i.ytimg.com/vi/ZArOxKkFGII/maxresdefault.jpg" />
+        <img src="https://i.ytimg.com/vi/ZArOxKkFGII/maxresdefault.jpg" alt="karate commercial"/>
       </Card>
       <Card>
-        <img src="https://i.pinimg.com/originals/82/16/97/82169723f888302a9d1d4156359567f0.jpg" />
+        <img src="https://i.pinimg.com/originals/82/16/97/82169723f888302a9d1d4156359567f0.jpg" alt="karate commercial"/>
       </Card>
       <Card>
-        <img src="https://images.askmen.com/720x540/entertainment/better_look/movie-fathers/9-mr-miyagi-the-karate-kid-1465834048.jpg" />
+        <img src="https://images.askmen.com/720x540/entertainment/better_look/movie-fathers/9-mr-miyagi-the-karate-kid-1465834048.jpg" alt="karate commercial"/>
       </Card>
       <Card>
-        <img src="http://content.artofmanliness.com/uploads//2012/02/chucknorris.jpg" />
+        <img src="http://content.artofmanliness.com/uploads//2012/02/chucknorris.jpg" alt="karate commercial"/>
       </Card>
     </Scroller>
     <WorkedWith />
